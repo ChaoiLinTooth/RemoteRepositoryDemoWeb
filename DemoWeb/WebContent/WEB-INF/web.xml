@@ -11,6 +11,18 @@ http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 		<servlet-name>DemoServlet</servlet-name>
 		<url-pattern>/demo.view</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>BinaryServlet</servlet-name>
+		<servlet-class>view.BinaryServlet</servlet-class>
+		<init-param>
+			<param-name>defaultFile</param-name>
+			<param-value>/img/x.jpg</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BinaryServlet</servlet-name>
+		<url-pattern>/photo.view</url-pattern>
+	</servlet-mapping>
 	<resource-ref>
 		<res-ref-name>jdbc/TestDB</res-ref-name>
 		<res-type>javax.sql.DataSource</res-type>
