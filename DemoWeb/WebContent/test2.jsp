@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>test</title>
+<title>test2</title>
 </head>
 <body>
-	<H1>Test1</H1>
-	<h3>test2-join</h3>
+	<h2>test2</h2>
 </body>
 </html>
